@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="2811\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="2811\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="2811\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="2811\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="2811\Modulo 1\MinhaApi\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 1\MinhaApi\appsettings.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 1\MinhaApi\Properties\launchSettings.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 2\Todo\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 2\Todo\appsettings.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 2\Todo\bin\Debug\net6.0\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 2\Todo\bin\Debug\net6.0\appsettings.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 2\Todo\bin\Debug\net6.0\Todo.deps.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 2\Todo\bin\Debug\net6.0\Todo.runtimeconfig.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 2\Todo\obj\Debug\net6.0\project.razor.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 2\Todo\obj\Debug\net6.0\staticwebassets.build.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 2\Todo\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 2\Todo\obj\Todo.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 2\Todo\Properties\launchSettings.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 3\Blog\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 3\Blog\appsettings.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 3\Blog\Properties\launchSettings.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 4\Blog\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 4\Blog\appsettings.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 4\Blog\Properties\launchSettings.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 5\Blog\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 5\Blog\appsettings.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 5\Blog\Properties\launchSettings.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 6\Blog\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 6\Blog\appsettings.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 6\Blog\Properties\launchSettings.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 7\Blog\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 7\Blog\appsettings.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 8\Blog\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 8\Blog\appsettings.json" />
+    <_ContentIncludedByDefault Remove="2811\Modulo 8\Blog\Properties\launchSettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameWorkCore.Design" Version="7.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameWorkCore.SqlServer" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
