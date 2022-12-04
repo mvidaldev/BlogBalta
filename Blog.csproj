@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Compile Remove="2811\**" />
+    <Compile Remove="ViewModel\EditCategoryViewModel.cs" />
   </ItemGroup>
 
   <ItemGroup>
