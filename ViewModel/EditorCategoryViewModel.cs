@@ -4,10 +4,9 @@ namespace Blog.ViewModel;
 
 public class EditorCategoryViewModel
 {
-    [Required]
+  
+    public required string Name { get; set; }
     
-    public string Name { get; set; }
-    [Required]
-    public string Slug { get; set; }
+    public required string Slug { get; set; }
 
 }
